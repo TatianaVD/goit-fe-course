@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 900px;
+  margin: auto;
+  padding-top: 32px;
+}
+.content {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+.list {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.list-item {
+  display: inline-block;
+}
+.list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 50px;
+  width: 150px;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+}
+.a-ferst {
+  color: #03a9f4;
+}
+.main-body {
+  font-size: 0;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 24px;
+  width: calc(50% - 30px);
+  margin-bottom: 120px;
+}
+.card60 {
+  margin-right: 60px;
+}
+.card-img-wrap {
+  margin-bottom: 30px;
+}
+.card-down {
+  margin-bottom: 54px;
+}
+.card-subtitle {
+  text-transform: uppercase;
+  width: 421px;
+  height: 29px;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu Light" sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.card-title {
+  margin-bottom: 40px;
+  width: 420px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.text {
+  width: 420px;
+  height: 78px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.list-link:hover {
+  color: blue;
+}
+.load-btn {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 164px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #626262;
+  cursor: pointer;
+}
+.load-m {
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
+
+/*==== life hack===== */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
