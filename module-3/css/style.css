@@ -68,7 +68,7 @@
   height: 78px;
   font-size: 14px;
   line-height: 24px;
-   font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
 }
 .list-link:hover {
@@ -81,7 +81,7 @@
   width: 164px;
   height: 60px;
   background-color: #fff;
-   cursor: pointer;
+  cursor: pointer;
 }
 .load-m {
   font-size: 20px;
