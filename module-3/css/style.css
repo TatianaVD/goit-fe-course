@@ -27,9 +27,6 @@
   text-align: center;
   font-family: "Playfair Display", sans-serif;
 }
-.a-ferst {
-  color: #03a9f4;
-}
 .main-body {
   font-size: 0;
 }
@@ -76,7 +73,7 @@
   font-weight: 400;
 }
 .list-link:hover {
-  color: blue;
+  color: #03a9f4;
 }
 .load-btn {
   display: block;
