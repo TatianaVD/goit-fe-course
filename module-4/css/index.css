@@ -71,8 +71,8 @@
   list-style: none;
   background-color: #323232;
   width: 201px;
-  height: 40px;
-  padding: 9px;
+  padding: 0 0 0 18px;
+  line-height: 40px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
 }
@@ -131,6 +131,7 @@
   margin-bottom: 20px;
 }
 .load-btn {
+  border: none;
   width: 160px;
   height: 51px;
   border-radius: 3px;
