@@ -1,0 +1,242 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 320px;
+  height: 100vh;
+  margin: auto;
+}
+.container-fluid {
+  min-height: 540px;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+.logo-in-up {
+  display: flex;
+  width: 80%;
+  height: 182px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 0 0 25px;
+}
+.logo {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.bttn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 8px 12px;
+}
+.up {
+  border-radius: 50px;
+  background-color: rgba(26, 25, 21, 0);
+  border: 2px solid #ffffff;
+}
+.head-cont {
+  display: flex;
+  width: 282px;
+  height: 174px;
+  flex-direction: column;
+}
+.tittle {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sub-tittle {
+  font-size: 18px;
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.bttn-top {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 50px;
+  border: 2px solid #ff4e50;
+  background-color: #ff4e50;
+  padding: 10px 0;
+  margin: auto;
+}
+.h1 {
+  font-size: 22px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-align: center;
+  padding: 60px 40px 0;
+}
+.cards {
+  padding: 20px;
+  text-align: center;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  margin: 0 auto 20px;
+}
+.card-img-top {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: #fbfbfb;
+}
+.card-img-bottom {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+.card-title {
+  width: 220px;
+  height: 28px;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 0 auto;
+}
+.card-text {
+  width: 221px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin: 0 auto 20px;
+}
+.bttn-down {
+  display: block;
+  text-decoration: none;
+  width: 280px;
+  text-align: center;
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 50px;
+  border: 2px solid #ff4e50;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto 40px;
+}
+@media (min-width: 768px) {
+  body {
+    max-width: 768px;
+    height: 100vh;
+    margin: auto;
+  }
+  .container-fluid {
+    background-image: url("../img/header-bg@tablet.jpg");
+  }
+  .logo-in-up {
+    width: 87.5%;
+    flex-direction: row;
+    padding: 18px 0;
+  }
+  .head-cont {
+    width: 73.3%;
+    margin: auto;
+  }
+  .tittle {
+    font-size: 52px;
+  }
+  .sub-tittle {
+    font-size: 24px;
+  }
+  .bttn-top {
+    width: 40%;
+    margin: auto;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 50%;
+  }
+  .lucas {
+    order: 1;
+  }
+  .bradley {
+    order: 2;
+  }
+  .bttn-down {
+    width: 25%;
+  }
+}
+@media (min-width: 960px) and (max-width: 1440px) {
+  body {
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+  }
+  .container-fluid {
+    background-image: url("../img/header-bg@desktop.jpg");
+  }
+  .logo-in-up {
+    width: 85%;
+  }
+  .bttn-top {
+    width: 32%;
+    font-size: 14px;
+  }
+  .tittle {
+    width: 74.2%;
+    font-size: 52px;
+    margin: 0 auto 10px;
+  }
+  .sub-tittle {
+    font-size: 22px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .card {
+    width: 19%;
+  }
+  .lucas {
+    order: 0;
+  }
+  .bradley {
+    order: 0;
+  }
+  .h1 {
+    max-width: 48.5%;
+    margin: auto;
+  }
+  .bttn-down {
+    width: 17%;
+  }
+}
