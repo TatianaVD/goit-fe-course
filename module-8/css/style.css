@@ -73,6 +73,11 @@
   background-color: #ff4e50;
   padding: 10px;
   margin: auto;
+  outline: none;
+  cursor: pointer;
+ }
+.bttn-top:hover {
+  background-color: #fa4245ea;
 }
 .h1 {
   font-size: 22px;
@@ -112,7 +117,7 @@
   height: 28px;
   font-size: 14px;
   color: #333333;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin: 0 auto;
 }
@@ -179,7 +184,7 @@
     width: 25%;
   }
 }
-@media (min-width: 960px) and (max-width: 1440px) {
+@media (min-width: 960px) {
   .container-fluid {
     background-image: url("../img/header-bg@desktop.jpg");
   }
