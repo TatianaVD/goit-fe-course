@@ -5,11 +5,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  max-width: 320px;
-  height: 100vh;
-  margin: auto;
-}
 .container-fluid {
   min-height: 540px;
   background-image: url("../img/header-bg.jpg");
@@ -31,7 +26,7 @@ body {
 .logo {
   font-size: 20px;
   letter-spacing: 1px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 .bttn {
@@ -39,7 +34,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   padding: 8px 12px;
 }
@@ -48,17 +43,11 @@ body {
   background-color: rgba(26, 25, 21, 0);
   border: 2px solid #ffffff;
 }
-.head-cont {
-  display: flex;
-  width: 282px;
-  height: 174px;
-  flex-direction: column;
-}
 .tittle {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
@@ -70,22 +59,25 @@ body {
   font-weight: 300;
   margin-bottom: 20px;
 }
+.div-bttn {
+  text-align: center;
+}
 .bttn-top {
   text-align: center;
   font-size: 14px;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 50px;
   border: 2px solid #ff4e50;
   background-color: #ff4e50;
-  padding: 10px 0;
+  padding: 10px;
   margin: auto;
 }
 .h1 {
   font-size: 22px;
   color: #333333;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   text-align: center;
   padding: 60px 40px 0;
@@ -139,7 +131,7 @@ body {
   text-align: center;
   font-size: 14px;
   color: #ff4e50;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 50px;
   border: 2px solid #ff4e50;
@@ -148,11 +140,6 @@ body {
   margin: 0 auto 40px;
 }
 @media (min-width: 768px) {
-  body {
-    max-width: 768px;
-    height: 100vh;
-    margin: auto;
-  }
   .container-fluid {
     background-image: url("../img/header-bg@tablet.jpg");
   }
@@ -193,11 +180,6 @@ body {
   }
 }
 @media (min-width: 960px) and (max-width: 1440px) {
-  body {
-    max-width: 1440px;
-    height: 100vh;
-    margin: auto;
-  }
   .container-fluid {
     background-image: url("../img/header-bg@desktop.jpg");
   }
@@ -231,10 +213,6 @@ body {
   }
   .bradley {
     order: 0;
-  }
-  .h1 {
-    max-width: 48.5%;
-    margin: auto;
   }
   .bttn-down {
     width: 17%;
