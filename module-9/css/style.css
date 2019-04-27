@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  min-height: 540px;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.container {
+  min-height: 200px;
+  margin-bottom: 50px;
+}
+.bttn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+.up {
+  border-radius: 50px;
+  background-color: rgba(26, 25, 21, 0);
+  border: 2px solid #ffffff;
+}
+.logo {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.bttn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+h2,
+h3 {
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.width_share {
+  height: 230px;
+}
+.div-bttn {
+  text-align: center;
+}
+.bttn-top {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  border: 2px solid #ff4e50;
+  background-color: #ff4e50;
+  padding: 10px 30px;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  margin: 0 auto 20px;
+}
+.card-img-top {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: #fbfbfb;
+}
+.card-img-bottom {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+.card-title {
+  width: 220px;
+  height: 28px;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.card-text {
+  width: 221px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin: 0 auto 20px;
+}
+button {
+  outline: none;
+  border: none;
+}
+.bttn-down {
+  display: block;
+  text-decoration: none;
+  width: 280px;
+  text-align: center;
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  border: 2px solid #ff4e50;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto 40px;
+}
+.bttn-down:hover {
+  color: #ff4e50;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    min-height: 700px;
+    background-image: url("../img/header-bg@tablet.jpg");
+  }
+}
+@media (min-width: 960px) {
+  .container-fluid {
+    background-image: url("../img/header-bg@desktop.jpg");
+  }
+}
