@@ -20,7 +20,7 @@
 .bttn {
   display: inline-block;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -29,7 +29,10 @@
 .up {
   border-radius: 50px;
   background-color: rgba(26, 25, 21, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid transparent;
+}
+.up:hover {
+  border-color: #fff;
 }
 .logo {
   font-size: 20px;
@@ -56,7 +59,7 @@ h3 {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  color: #ffffff;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 50px;
@@ -66,6 +69,9 @@ h3 {
   margin: auto;
   outline: none;
   cursor: pointer;
+}
+.top-bttn:focus {
+  outline: none;
 }
 .card-img {
   display: flex;
@@ -92,7 +98,7 @@ h3 {
   width: 220px;
   height: 28px;
   font-size: 14px;
-  color: #333333;
+  color: #333;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin: 0 auto;
@@ -100,12 +106,16 @@ h3 {
 .card-text {
   width: 221px;
   font-size: 14px;
-  color: #666666;
-  font-family: "Roboto";
+  color: #666;
+  font-family: "Roboto" sans-serif;
   font-weight: 300;
   margin: 0 auto 20px;
 }
-button {
+button:active {
+  outline: none;
+  border: none;
+}
+button:visited {
   outline: none;
   border: none;
 }
@@ -120,7 +130,7 @@ button {
   font-weight: 700;
   border-radius: 50px;
   border: 2px solid #ff4e50;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px;
   margin: 0 auto 40px;
 }
