@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 800px;
+    margin-bottom: 45px;
+    background-image: $bg-url;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }

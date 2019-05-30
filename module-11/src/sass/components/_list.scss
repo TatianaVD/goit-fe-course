@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  &--nav-list .list__link {
+    color: #fff;
+  }
+  &--nav-list .list__link:hover {
+    color: $accent;
+  }
+  &__item {
+    padding: 0 0 0 40px;
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    min-height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: $font-main;
+    font-weight: 400;
+    position: relative;
+  }
+  &__link::after {
+    content: '';
+    background-color: $accent;
+    width: 0px;
+    height: 2px;
+    display: block;
+    transition: all 0.2s linear;
+    left: 50%;
+    position: absolute;
+  }
+  &__link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}

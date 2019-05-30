@@ -1,0 +1,42 @@
+.cart {
+  width: 380px;
+  position: relative;
+  display: block;
+  margin-bottom: 34px;
+
+  &__img-wrp {
+    background-color: #95e1d3;
+    height: 470px;
+    position: relative;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: all 0.3s;
+  }
+  &__img-wrp::after {
+    content: '';
+    background-image: linear-gradient(#ee8989, #eed688);
+    position: absolute;
+    height: 470px;
+    width: 380px;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  &:hover .cart__img {
+    top: -10px;
+    left: -10px;
+  }
+  &:hover .cart__img-wrp::after {
+    top: -10px;
+    left: -10px;
+    opacity: 0.8;
+  }
+}
