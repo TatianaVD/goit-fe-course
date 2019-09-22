@@ -174,3 +174,18 @@
   background-color: #fed136;
   color: #fff;
 }
+
+textarea[name="massage"]:focus:invalid,
+ input[name="name"]:focus:invalid,
+input[name="email"]:focus:invalid,
+input[name="subject"]:focus:invalid
+ {
+  outline: 3px solid #f00;
+}
+input[name="name"]:focus:valid,
+input[name="email"]:focus:valid,
+input[name="subject"]:focus:valid,
+textarea[name="massage"]:focus:valid
+ {
+  outline: 3px solid #080;
+}
