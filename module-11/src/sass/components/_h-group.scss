@@ -1,0 +1,37 @@
+.h-group__subtitle {
+    font-size: 30px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+  }
+  .h-group__title {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+    .h-group__subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 44px auto;
+  }
+  .h-group__description {
+    width: 960px;
+    height: 120px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+  }

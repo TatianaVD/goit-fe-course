@@ -1,0 +1,40 @@
+.base-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 67%;
+  margin: 0 auto;
+}
+.base__subtitle {
+  font-size: 72px;
+  color: #fff;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  text-align: center;
+  margin: 10px auto;
+}
+.base__title {
+  font-size: 150px;
+  line-height: 140px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.base__bttn {
+  width: 17%;
+  border: 1px solid;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 8px 12px;
+  background-color: transparent;
+}
+.base__bttn:focus {
+  outline: none;
+}

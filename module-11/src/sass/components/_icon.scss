@@ -1,0 +1,28 @@
+.icons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 185px;
+    left: 80px;
+    z-index: 50;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .icon {
+    --s: 50px;
+    width: var(--s);
+    height: var(--s);
+    background: #fce38a;
+    margin-right: 1px;
+  }
+  .cart:hover .icons {
+    opacity: 1;
+  }
+  .icon:hover {
+    background: #95e1d3;
+  }
+  .icon__img {
+    display: block;
+    margin: auto;
+    padding-top: 12px;
+  }

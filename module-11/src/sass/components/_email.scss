@@ -1,0 +1,38 @@
+.email {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  //   width: 230px;
+  //   height: 40px;
+  color: #ccc;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+    // padding: 0 0 0 13px;
+  border: 1px solid #e7e7e7;
+  &__e-text {
+    width: 200px;
+    padding-left: 10px;
+    // height: 40px;
+    // background-color: #95e1d3;
+    border: 0;
+  }
+  &__e-buttn {
+    width: 150px;
+    height: 40px;
+      background-color: #95e1d3;
+    border: 0;
+  }
+  &__e-subm {
+    // background-color: #95e1d3;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
