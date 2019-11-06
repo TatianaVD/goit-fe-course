@@ -41,7 +41,15 @@
 .up {
   border-radius: 50px;
   background-color: rgba(26, 25, 21, 0);
-  border: 2px solid #ffffff;
+  border: 2px solid transparent;
+}
+/* .up {
+  border-radius: 50px;
+  background-color: rgba(26, 25, 21, 0);
+  border: 2px solid transparent;
+} */
+.up:hover {
+  border-color: #ffffff;
 }
 .tittle {
   text-decoration: none;
