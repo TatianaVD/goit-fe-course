@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/img/16685007-schöne-designer-hintergrund-mit-den-zweigen-der-blühenden-apfelbaum-mit-einem-notebook-und-stift.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.content .title-container {
+  display: block;
+  margin: 0 auto;
+}
+.title {
+  transform: skewX(16deg) rotate(-22deg);
+  font-family: "Bad Script", cursive;
+  font-weight: 500;
+  font-size: 60px;
+  background: linear-gradient(50deg, #1a3375 43%, #287a76 46%, #d2ec5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: table;
+  margin: auto;
+  padding: 100px 0 40px 80px;
+  letter-spacing: 5px;
+}
+.container-list {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  transform: skewX(16deg) rotate(-21.95deg);
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  padding: 4% 0 0 10%;
+}
+.list-item,
+.list-item3,
+.list-item4,
+.list-item5,
+.list-item6,
+.list-item7,
+.list-item8,
+.list-item9,
+.list-item10,
+.list-item11 {
+  padding: 0 3rem 0 1rem;
+  border-radius: 3px;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 19px;
+  transform: skewX(-16deg);
+}
+.list-item:hover {
+  /* background: linear-gradient(85deg, hsla(211, 86%, 43%, 0.8), hsla(211, 86%, 43%, 0)); */
+  background: linear-gradient(
+    85deg,
+    hsla(96, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item3:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(106, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item4:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(116, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item5:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(126, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item6:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(136, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item7:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(146, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item8:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(156, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item9:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(166, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item10:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(176, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-item11:hover {
+  background: linear-gradient(
+    85deg,
+    hsla(186, 58%, 50%, 0.568),
+    hsla(222, 43%, 57%, 0)
+  );
+}
+.list-link {
+  color: hsla(220, 56%, 43%, 1);
+  text-decoration: none;
+  font-family: "Bad Script", cursive;
+  letter-spacing: 7px;
+}
